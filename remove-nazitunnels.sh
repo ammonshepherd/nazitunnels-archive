@@ -10,7 +10,7 @@ export LANG=C
 process_file() {
     local file="$1"
     # Remove occurrences of the URL in <a> and <img> tags
-    sed -i '' -E 's@<a([^>]*)https://nazitunnels.org/([^>]*)>@<a\1\2>@g; s@<img([^>]*)https://nazitunnels.org/([^>]*)>@<img\1\2>@g' "$file"
+    sed -i '' -E 's@<a([^>]*)http://nazitunnels.org/([^>]*)>@<a\1\2>@g; s@<img([^>]*)http://nazitunnels.org/([^>]*)>@<img\1\2>@g' "$file"
 }
 
 export -f process_file
