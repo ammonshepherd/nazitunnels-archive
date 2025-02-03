@@ -1,0 +1,20 @@
+The naming convention of these documents is as follows:
+
+Year.Month.Day-DocumentNumber-PageNumber+To_From-English-USHMM-Goudsmit-RG10.228_FolderNumber
+
+Year  = The last two digits of the year
+Month = The two digit month
+Day   = The two digit day
+
+Document Number = Each Nazi document seems to have a number, seemingly assigned when written/typed
+
+Page Number  = The page number, if only one page, use 1.
+
+To   = To whom the document is written. If not known, use 'To'.
+From = Who wrote the document. If not known, use 'From'
+
+English = If there is an English translation
+
+USHMM-Goudsmit-RG10.228 = The collection in the USHMM archives
+
+FolderNumber = the folder number within the collection
